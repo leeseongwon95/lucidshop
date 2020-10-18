@@ -5,7 +5,7 @@ const port = 5000
 const mongoose = require('mongoose')
 mongoose
   .connect(
-    'mongodb+srv://<username>:<password>@wonshop.fewqi.mongodb.net/wonshop?retryWrites=true&w=majority',
+    'mongodb+srv://<username>:<password>@wonshop.fewqi.mongodb.net/<dbname>?retryWrites=true&w=majority',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
