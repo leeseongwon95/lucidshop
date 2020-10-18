@@ -1,0 +1,23 @@
+{
+  "name": "lucidshop",
+  "version": "1.0.0",
+  "description": "everybody's favorite clothing store (Node JS and React JS)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeseongwon95/lucidshop.git"
+  },
+  "author": "seongwon-lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leeseongwon95/lucidshop/issues"
+  },
+  "homepage": "https://github.com/leeseongwon95/lucidshop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
